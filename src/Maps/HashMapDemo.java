@@ -19,6 +19,8 @@ public class HashMapDemo {
         map.put(3, "Cherry");
         map.put(4, "Date");
 
+
+
         // 2. get(Object key) - Retrieve value
         System.out.println("Value for key 2: " + map.get(2));
 

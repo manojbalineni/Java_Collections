@@ -1,6 +1,7 @@
 package Lists;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -11,6 +12,12 @@ public class ListDemo {
 
         List<Integer> numbers = new ArrayList<>();
         List<String> fruits = new LinkedList<>();
+        List<String> name = Arrays.asList("Alice","Bob");
+
+
+
+
+
 
     }
 }

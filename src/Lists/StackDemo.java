@@ -7,7 +7,7 @@ public class StackDemo {
         /**
          * Inherits from Vector.
          * Follows LIFO (Last In, First Out).
-         * Provides push, pop, peek operations.
+         * Provides push, pop, peek , size operations.
          */
         Stack<Integer> stack = new Stack<>();
 
@@ -23,9 +23,11 @@ public class StackDemo {
         System.out.println("Popped element: " + stack.pop());
 
         // Checking if stack is empty
-        System.out.println("Is stack empty? " + stack.isEmpty());
+        System.out.println("Is stack empty : " + stack.isEmpty());
 
         // Printing remaining elements
         System.out.println("Stack elements: " + stack);
+
+
     }
 }

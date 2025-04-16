@@ -45,6 +45,7 @@ public class LinkedHashSetDemo {
             System.out.println(iterator.next());
         }
 
+
         // 7. clear() - Removing all elements
         lhs.clear();
         System.out.println("After clear() method, is empty? " + lhs.isEmpty());

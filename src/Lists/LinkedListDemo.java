@@ -13,12 +13,16 @@ public class LinkedListDemo {
         * 1. Uses double linked list to store elements internally
         * 2. Contains Duplicate elements
         * 3. Maintains insertion order
-        * 4. Manipulation is faster than array list as no shifting is required. */
+        * 4. Manipulation is faster than array list as no shifting is required.
+        * 5. In the linked list random access is not possible.
+        *  1 -> 2 -> 3 -> 4 */
 
         LinkedList<Integer> numbers = new LinkedList<>();
         numbers.add(13);
         numbers.add(16);
         numbers.add(23);
+
+
 
         System.out.println(numbers);
 
@@ -42,6 +46,14 @@ public class LinkedListDemo {
 
         System.out.println(numbers.contains(213));
 
+        /**
+         * [12,13,14,1,5,16] -> linkedList => numbers
+         * iterarot() - > to iterate over elements ( to print element wise or perform any operation element wise )
+         * numbers.descendingIterator() , numbers.iterator();
+         * Iterator<Integer> objectName = numbers.iterator();
+         * hasNext() -> true
+         * */
+
         Iterator<Integer> integerIterator = numbers.descendingIterator();
         while(integerIterator.hasNext()){
             System.out.println(integerIterator.next());
@@ -57,6 +69,11 @@ public class LinkedListDemo {
         System.out.println(numbers.indexOf(100));
         System.out.println(numbers.lastIndexOf(100));
 
+
+        /**
+         * iterator() , listIterator()
+         * descendingIterartor()*/
+
         ListIterator<Integer> integerListIterator = numbers.listIterator();
         while(integerListIterator.hasNext()){
             System.out.println(integerListIterator.next());
@@ -69,8 +86,8 @@ public class LinkedListDemo {
         numbers.offerLast(190);
         System.out.println(numbers);
 
-
-
+        System.out.println("##################");
+        System.out.println(numbers);
 
         System.out.println(numbers.peek());
         System.out.println(numbers.peekFirst());

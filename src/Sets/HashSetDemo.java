@@ -5,6 +5,7 @@ import java.util.Iterator;
 
 public class HashSetDemo {
     public static void main(String[] args) {
+
         /*1. Used to create a collection that uses hash table to store.
         * 2. Hashing mechanism is used
         * 3. Contains Unique elements
@@ -19,6 +20,8 @@ public class HashSetDemo {
         fruits.add("Apple");
         fruits.add("Banana");
         System.out.println(fruits);
+
+
 
         System.out.println(fruits.contains("Apple"));
 

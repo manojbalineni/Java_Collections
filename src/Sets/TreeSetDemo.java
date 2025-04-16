@@ -7,15 +7,15 @@ import java.util.TreeSet;
 public class TreeSetDemo {
 
     public static void main(String[] args) {
-        /*1. Uses Binary Search Tree for implementation
+        /*1. Uses Binary Search Tree (BST) for implementation
         * 2. Efficient Data Structure to store large Data
-        * 3. Maintains insertion order. */
+        * 3. Maintains insertion sorted order. */
 
         TreeSet<Integer> set = new TreeSet<>();
 
         // 1. add(E e) - Adding elements
         set.add(10);
-        set.add(20);
+        set.add(120);
         set.add(30);
         set.add(40);
         set.add(50);
